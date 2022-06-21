@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calender</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background-image: url(/image.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: rgba(78, 15, 15, 0.247);
+            background-blend-mode: darken;
+        }
+        
+        .container {
+            padding: 50px 200px;
+        }
+        
+        .icon_container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: red;
+            color: white;
+            padding: 10px 10px;
+        }
+        
+        .span {
+            font-size: smaller;
+        }
+        
+        .days {
+            display: flex;
+            justify-content: space-around;
+            color: red;
+            padding: 0px 40px;
+            padding-top: 50px;
+        }
+        
+        .white {
+            background-color: rgb(241, 229, 229);
+            height: 25rem;
+        }
+        
+        .date {
+            display: grid;
+            grid-template-columns: 14.1% 14.1% 14.1% 14.1% 14.1% 14.1% 14.1%;
+            padding: 10px 50px;
+        }
+        
+        .box {
+            border: 1px solid rgba(0, 0, 0, 0.329);
+            padding: 20px 52px;
+            text-align: center;
+        }
+        
+        .box15 {
+            border: 1px solid rgba(0, 0, 0, 0.329);
+            padding: 10px 15px;
+            background-color: red;
+            color: white;
+        }
+        
+        .box_open {
+            border: 1px solid rgba(0, 0, 0, 0.329);
+            padding: 10px 15px;
+            background-color: rgba(169, 169, 169, 0.158);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icon_container">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <h4>MAY<br>
+                <span class="span">2017</span>
+            </h4>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+        </div>
+        <div class="white">
+            <div class="days">
+                <h5>MON</h5>
+                <h5>TUE</h5>
+                <h5>WED</h5>
+                <h5>THU</h5>
+                <h5>FRI</h5>
+                <h5>SAT</h5>
+                <h5>SUN</h5>
+            </div>
+
+            <div class="date">
+                <div class="box">1</div>
+                <div class="box">2</div>
+                <div class="box">3</div>
+                <div class="box">4</div>
+                <div class="box">5</div>
+                <div class="box">6</div>
+                <div class="box">7</div>
+                <div class="box">8</div>
+                <div class="box">9</div>
+                <div class="box">10</div>
+                <div class="box">11</div>
+                <div class="box">12</div>
+                <div class="box">13</div>
+                <div class="box">14</div>
+                <div class="box15">15</div>
+                <div class="box">16</div>
+                <div class="box">17</div>
+                <div class="box">18</div>
+                <div class="box">19</div>
+                <div class="box">20</div>
+                <div class="box">21</div>
+                <div class="box">22</div>
+                <div class="box">23</div>
+                <div class="box">24</div>
+                <div class="box">25</div>
+                <div class="box">26</div>
+                <div class="box">27</div>
+                <div class="box">28</div>
+                <div class="box">29</div>
+                <div class="box">30</div>
+                <div class="box">31</div>
+                <div class="box_open"></div>
+                <div class="box_open"></div>
+                <div class="box_open"></div>
+                <div class="box_open"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
